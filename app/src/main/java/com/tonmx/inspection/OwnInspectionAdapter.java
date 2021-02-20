@@ -89,7 +89,6 @@ class OwnInspectionAdapter extends BaseAdapter {
 //        if (ownInspectionHolder.remarks.getTag() instanceof TextWatcher) {
 //            ownInspectionHolder.remarks.removeTextChangedListener((TextWatcher) (ownInspectionHolder.remarks.getTag()));
 //        }
-        ownInspectionHolder.remarks.;
         ownInspectionHolder.remarks.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -245,8 +244,8 @@ class OwnInspectionAdapter extends BaseAdapter {
         ImageView result_select;
         ImageView not_select;
         EditText status;
-        //EditText remarks;
-        EditSpinner remarks;
+        EditText remarks;
+        //EditSpinner remarks;
 
 
         public OwnInspectionHolder(View convertView,int position){
@@ -259,8 +258,8 @@ class OwnInspectionAdapter extends BaseAdapter {
             abnormal = (TextView) convertView.findViewById(R.id.abnormal);
             clickstatus = (TextView) convertView.findViewById(R.id.click_status);
             status = (EditText) convertView.findViewById(R.id.status);
-            //remarks = (EditText) convertView.findViewById(R.id.remarks);
-            remarks = (EditSpinner) convertView.findViewById(R.id.remarks);
+            remarks = (EditText) convertView.findViewById(R.id.remarks);
+            //remarks = (EditSpinner) convertView.findViewById(R.id.remarks);
 
         }
     }

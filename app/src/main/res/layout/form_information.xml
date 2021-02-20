@@ -152,27 +152,27 @@
 <!--                android:gravity="top"-->
 <!--                />-->
 
-<!--            <EditText-->
+            <EditText
+                android:id="@+id/remarks"
+                android:layout_width="match_parent"
+                android:layout_height="46.67dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="75dp"
+                android:background="#F2F7FF"
+                android:hint="请输入信息"
+                android:textSize="14.67sp"
+                android:gravity="top"
+                />
+
+<!--            <com.wrbug.editspinner.EditSpinner-->
 <!--                android:id="@+id/remarks"-->
 <!--                android:layout_width="match_parent"-->
 <!--                android:layout_height="46.67dp"-->
 <!--                android:layout_marginTop="100dp"-->
 <!--                android:layout_marginStart="75dp"-->
-<!--                android:background="#F2F7FF"-->
-<!--                android:hint="请输入信息"-->
-<!--                android:textSize="14.67sp"-->
-<!--                android:gravity="top"-->
-<!--                />-->
-
-            <com.wrbug.editspinner.EditSpinner
-                android:id="@+id/remarks"
-                android:layout_width="match_parent"
-                android:layout_height="46.67dp"
-                android:layout_marginTop="100dp"
-                android:layout_marginStart="75dp"
-                app:Background="@drawable/bg_view_frame"
-                app:hint="无"
-                app:rightImage="@drawable/ic_expand_more_black" />
+<!--                app:Background="@drawable/bg_view_frame"-->
+<!--                app:hint="无"-->
+<!--                app:rightImage="@drawable/ic_expand_more_black" />-->
 
 
 
