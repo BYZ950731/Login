@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="default_username">"请输入用户账号"</string>
+    <string name="default_userpassword">"请输入密码"</string>
+    <string name="default_login_ip">"请输入IP"</string>
+    <string name="revise_password">修改密码</string>
+    <string name="log_out">退出登录</string>
+
+
+    <string-array name="remarks">
+        <item>无</item>
+        <item>开关电源</item>
+        <item>列头柜</item>
+        <item>UPS</item>
+        <item>交流引入柜</item>
+    </string-array>
+
+</resources>

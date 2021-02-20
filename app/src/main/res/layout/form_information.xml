@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175.67dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="13.33dp"
+            android:layout_marginEnd="13.33dp"
+            android:layout_height="149dp">
+
+            <TextView
+                android:id="@+id/click_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_round_whitetextview"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/deviceSeat"
+                android:layout_width="match_parent"
+                android:layout_height="16.44dp"
+                android:layout_marginStart="33.67dp"
+                android:textColor="#333333"
+                android:text="设备位置：东机房"
+                android:gravity="bottom"
+                android:textSize="14.67sp"/>
+
+            <TextView
+                android:id="@+id/deviceName"
+                android:layout_width="match_parent"
+                android:layout_height="16.44dp"
+                android:layout_marginStart="33.67dp"
+                android:layout_marginTop="16.44dp"
+                android:textColor="#333333"
+                android:text="设备名称：服务器A"
+                android:gravity="bottom"
+                android:textSize="14.67sp"/>
+
+            <TextView
+                android:id="@+id/review"
+                android:layout_width="match_parent"
+                android:layout_height="16.44dp"
+                android:layout_marginStart="33.67dp"
+                android:layout_marginTop="33dp"
+                android:textColor="#333333"
+                android:text="巡视内容：服务器运行状态确认"
+                android:gravity="bottom"
+                android:textSize="14.67sp"/>
+
+            
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="33.67dp"
+                android:text="结论"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:textSize="14.67sp"
+                />
+
+            <ImageView
+                android:id="@+id/result_select"
+                android:layout_width="16.67dp"
+                android:layout_height="16.67dp"
+                android:layout_marginTop="57dp"
+                android:layout_marginStart="75dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/result_select"/>
+
+
+            <TextView
+                android:id="@+id/normal"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="93dp"
+                android:text="正常"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:textSize="14.67sp"
+                />
+
+
+            <ImageView
+                android:id="@+id/not_select"
+                android:layout_width="16.67dp"
+                android:layout_height="16.67dp"
+                android:layout_marginTop="57dp"
+                android:layout_marginStart="138.67dp"
+                android:scaleType="centerInside"
+                android:src="@mipmap/not_select"/>
+
+            <TextView
+                android:id="@+id/abnormal"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="156dp"
+                android:text="异常"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:textSize="14.67sp"
+                />
+
+
+            <EditText
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="23.33dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="75dp"
+                android:background="#F2F7FF"
+                android:hint="请输入信息"
+                android:textSize="14.67sp"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginStart="33.67dp"
+                android:text="备注"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:textSize="14.67sp"
+                />
+
+<!--            <Spinner-->
+<!--                android:id="@+id/remarks_spinner"-->
+<!--                android:paddingTop="10px"-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="20sp"-->
+<!--                android:layout_marginTop="80dp"-->
+<!--                android:layout_marginStart="75dp"-->
+<!--                android:background="#F2F7FF"-->
+<!--                android:gravity="top"-->
+<!--                />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/remarks"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="46.67dp"-->
+<!--                android:layout_marginTop="100dp"-->
+<!--                android:layout_marginStart="75dp"-->
+<!--                android:background="#F2F7FF"-->
+<!--                android:hint="请输入信息"-->
+<!--                android:textSize="14.67sp"-->
+<!--                android:gravity="top"-->
+<!--                />-->
+
+            <com.wrbug.editspinner.EditSpinner
+                android:id="@+id/remarks"
+                android:layout_width="match_parent"
+                android:layout_height="46.67dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="75dp"
+                app:Background="@drawable/bg_view_frame"
+                app:hint="无"
+                app:rightImage="@drawable/ic_expand_more_black" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="#F2F7FF"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.7"/>
+
+</LinearLayout>
